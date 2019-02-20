@@ -37,19 +37,19 @@ function startGame() {
 	if(pet==true){
 		//alert("PET");
 		//a= 1;
-		myGamePiece = new component(60, 60, "img/palla_pet.png", 200, 20,"img");
+		myGamePiece = new component(60, 60, "img/palla_pet.svg", 200, 20,"img");
 		min= 200;
 		document.getElementById("message").innerHTML= "Sinks in fresh water and salt water";		
 	}
 	if(ldpe==true){
 		//alert("LDPE");
-		myGamePiece = new component(60, 60, "img/palla_ldpe.png", 200, 20,"img");
+		myGamePiece = new component(60, 60, "img/palla_ldpe.svg", 200, 20,"img");
 		min= 110;
 		document.getElementById("message").innerHTML= "Floats in fresh water and salt water";		
 	}
 	if(pp==true){
 		//alert("PP");
-		myGamePiece = new component(60, 60, "img/palla_pp.png", 200, 20,"img");
+		myGamePiece = new component(60, 60, "img/palla_pp.svg", 200, 20,"img");
 		min= 110;
 		document.getElementById("message").innerHTML= "Floats in fresh water and salt water";		
 	}
